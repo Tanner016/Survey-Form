@@ -7,14 +7,30 @@
 	<h1 id="title">Survey Form</h1>
 		<p id="description">Let us know how we can improve our service</p>
 			<form id="survey-form" method="GET" action="">
-				<div class="rowTab">
+			<div class="rowTab">
 					<div class="labels">
 					<label id="name-label" for="name">* Name: </label>
 			</div>
 			<div class="rightTab">
-<input autofocus="" type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required="">
+				<input autofocus="" type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required="">
+			</div>
+				<div class="rowTab">
+				<div class="labels">
+				<label id="email-label" for="email">* Email: </label>
+			</div>
+				<div class="rightTab">
+				<input type="email" name="email" id="email" class="input-field" required="" placeholder="Enter your Email">
+			</div>
+			<div class="rowTab">
+<div class="labels">
+<label id="number-label" for="age">* Age: </label>
+</div>
+<div class="rightTab">
+<input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
 </div>
 </div>
+			</div>
+		
 
 </form>
 </body>
